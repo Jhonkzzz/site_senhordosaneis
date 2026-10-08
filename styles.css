@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#titulo_principal {
+    background-color: #8B6F1E;
+    color: white;
+}
+
+.titulo_secundario {
+    background-color: #2F4F2F;
+    color: white;
+}
+
+#layout{
+    display: flex;
+}
+
+
+.rodape{
+    text-align: center;
+}
+
+body{
+    background-color: Rgb(0,0,0); /*Cor de fundo*/
+    color: Rgb(255,255,255); /*Cor da fonte*/
+    font-family: "Roboto", sans-serif;  /*Estilo da fonte*/
+    font-size: 16px; /*Tamanho da fonte*/
+    font-style: normal; /*italic, oblique, normal */
+    line-height: 20px; /*Espaçamento entre linhas*/
+    font-weight: 400; /*100 a 900 e bold/bolder serve para deixar negrito*/
+    text-transform: none; /*uppercase ,lowercase, capitalize, none*/
+    text-decoration: none; /*underline, overline (dotted, dashed, wavy, double) sublinhado */
+    word-spacing: 3px; /*Espaçamento entre palavras*/
+    letter-spacing: 1px; /*Espaçamento entre letras*/
+    text-indent: 1px;
+    text-align: justify; /*center, left, right, justify*/
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#layout{
+   /* font-size: 1em; Multiplica o valor da propriedade que está no pai quando uso 'em' */
+   font-size: 1rem; /*Multiplica o valor da propriedade que está no navegador quando uso 'rem'*/
+   /*border-style: groove; /*solid, dashed, dotted, inset, outset, groove
+   border-width: 30px;
+   border-color: red;*/
+   border: groove 30px red;
+   border-bottom: solid 12px green;
+   border-radius: 10px 50px 100px 200px;
+}
