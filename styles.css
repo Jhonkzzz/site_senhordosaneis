@@ -44,10 +44,45 @@ nav a{
 #layout{
    /* font-size: 1em; Multiplica o valor da propriedade que está no pai quando uso 'em' */
    font-size: 1rem; /*Multiplica o valor da propriedade que está no navegador quando uso 'rem'*/
+   
+   /*Borda*/
    /*border-style: groove; /*solid, dashed, dotted, inset, outset, groove
    border-width: 30px;
    border-color: red;*/
    border: groove 30px red;
    border-bottom: solid 12px green;
    border-radius: 10px 50px 100px 200px;
+
+   /*Margem da borda*/ 
+   /*margin: 60px 20px 100px 200px; Define a margem fora da borda*/
+   /*margin: auto; Define automaticamente a margem fora da borda, no entanto funciona apenas quando tem uma largura definida (width) ou uma altura definida (heigth)*/
+   /*margin-left: 20px;
+   margin-right: 50px;
+   margin-top: 100px;
+   margin-bottom: 120px;*/
+   
+   /*Espaçamento de dentro da borda*/
+   /*padding: 20px 100px;
+   padding-top: 20px;
+   padding-right: 50px;
+   padding-bottom: 80px;
+   padding-left: 100px;*/
+
 }
+
+.teste_display{
+    background-color: orange;
+    display: flex; /*inline, block, inline-block*/
+    width: 1000px;
+    /*visibility: hidden; */ /*Desaparece com os elementos deixando o espaço ocupado vazio*/
+
+}
+
+#teste-gradient{
+    background-image: radial-gradient(circle, #7707FF 25%, #ED02DB 40%, #FF0D47 60%, #FE4C04 75%, #FA7109 100%); /*to right, to bottom, to left, to top*/
+    color: black;
+    height: 300px;
+    cursor: pointer;
+}
+
+
